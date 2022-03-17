@@ -26,7 +26,7 @@ const Navigation = () => {
                     <Route path="users" element={<h1>Users page</h1>} />
                     <Route path="home" element={<h1>Home page</h1>} />
 
-                    <Route path="/*" element={<Navigate to="home" replace />} />
+                    <Route path="/*" element={<Navigate to="/home" replace />} />
                 </Routes>                
             </div>
         </BrowserRouter>
